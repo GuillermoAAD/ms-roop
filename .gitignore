@@ -2,5 +2,6 @@
 models
 temp
 __pycache__
-src/.DS_Store
-src/
+src/*
+!src/test-n/input/.gitkeep
+!/src/test-n/output/.gitkeep
