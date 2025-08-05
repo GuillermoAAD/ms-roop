@@ -88,9 +88,9 @@ Con un simple comando hace el proceso una vez, pero cada vez hace unas descargas
 
 ```
 docker-compose run --rm roop \
-  --source src/test-2/input/face.png \
-  --target src/test-2/input/target.png \
-  --output src/test-2/output/result.png
+  --source src/test-n/input/face.png \
+  --target src/test-n/input/target.png \
+  --output src/test-n/output/result.png
 ```
 
 ### Optión 2: Contenedor persistente (Recomendada)
@@ -114,7 +114,7 @@ docker exec -it roop bash
 
 ``` sh
 python run.py \
-  --source src/test-8/input/face.png \
-  --target src/test-8/input/target.png \
-  --output src/test-8/output/result.png
+  --source src/test-n/input/face.png \
+  --target src/test-n/input/target.png \
+  --output src/test-N/output/result.png
 ```
