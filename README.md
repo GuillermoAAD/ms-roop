@@ -95,6 +95,13 @@ docker-compose run --rm roop \
 
 ### Optión 2: Contenedor persistente (Recomendada)
 
+Asegurarse de tener las siguietnes carpetas donde n es el. numero de test
+
+``` sh
+make src/test-n/input
+make src/test-n/output
+```
+
 Levanta el contenedor y la descarga que requiere solo la hace la primera vez, es necesario entrar a la terminal del docker para ejecutar el comando
 
 - Levantar contenedor
