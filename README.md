@@ -102,6 +102,14 @@ make src/test-n/input
 make src/test-n/output
 ```
 
+dentro de input eagregar los archivos:
+
+| Archivo | Descripción |
+| --- | --- |
+| face.png | Es el archivo de donde se extraera la  o las caras |
+| target.png | Es el archivo donde se insertará la  o las caras |
+
+
 Levanta el contenedor y la descarga que requiere solo la hace la primera vez, es necesario entrar a la terminal del docker para ejecutar el comando
 
 - Levantar contenedor
