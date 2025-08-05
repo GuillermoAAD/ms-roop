@@ -1,0 +1,10 @@
+services:
+  roop:
+    build: .
+    container_name: roop
+    volumes:
+      - ./src:/app/src
+
+    stdin_open: true
+    tty: true
+    entrypoint: ["bash"]
