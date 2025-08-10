@@ -1,9 +1,5 @@
 .DS_Store
 /roop/*
-.idea
-models
-temp
-__pycache__
 
 src/*
 !src/.gitkeep
