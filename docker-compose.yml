@@ -4,7 +4,9 @@ services:
     container_name: roop
     volumes:
       - ./src:/app/src
-
+      - ./downloads/models:/app/models              # modelos que va a /app/models
+      - ./downloads/insightface:/root/.insightface  # modelos de insightface
+      - ./downloads/opennsfw2:/root/.opennsfw2
     stdin_open: true
     tty: true
     entrypoint: ["bash"]
