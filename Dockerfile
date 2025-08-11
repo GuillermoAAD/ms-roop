@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Copia los archivos del proyecto
-COPY . /app
+COPY ./roop /app
 
 # Instala dependencias de Python
 RUN pip install --upgrade pip \
