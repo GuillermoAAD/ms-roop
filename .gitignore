@@ -2,13 +2,4 @@
 /roop/*
 
 src/*
-!src/.gitkeep
-
-src/test-n/*
-!src/test-n/.gitkeep
-
-src/test-n/input/*
-!src/test-n/input/.gitkeep
-
-src/test-n/output/*
-!src/test-n/output/.gitkeep
+downloads/*
