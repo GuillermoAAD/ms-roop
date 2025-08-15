@@ -73,3 +73,21 @@ Para detener los contenedores, ejecuta:
 ```bash
 docker-compose down
 ```
+
+## EJEMPLO
+
+### Inputs
+
+Face:
+
+![face](src/test-n/input/face.png "face")
+
+Target:
+
+![target](src/test-n/input/target.png "target")
+
+### Output
+
+Result:
+
+![result](src/test-n/output/result.png "result")
